@@ -13,7 +13,7 @@ namespace FreeCourse.Services.Catalog.Controllers
     {
         private readonly ICourseService _courseService;
 
-        internal CoursesController(ICourseService courseService)
+        public CoursesController(ICourseService courseService)
         {
             _courseService = courseService;
         }
